@@ -1,0 +1,42 @@
+{
+  "name": "Network_Application",
+  "version": "3.0.0",
+  "description": "Network Application Server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "abort-controller": "^3.0.0",
+    "axios": "^0.21.1",
+    "basic-ftp": "^4.6.6",
+    "bluebird": "^3.7.2",
+    "body-parser": "^1.19.0",
+    "bytes": "^3.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "fetch-with-proxy": "^3.0.1",
+    "glob": "^7.1.7",
+    "https-proxy-agent": "^5.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "kill-port": "^1.6.1",
+    "ltrim": "^1.0.1",
+    "moment": "^2.29.1",
+    "mssql": "^6.3.2",
+    "mysql": "^2.18.1",
+    "node-cron": "^2.0.3",
+    "node-fetch": "^2.6.1",
+    "node-fetch-with-proxy": "^0.1.4",
+    "nodemailer": "^6.6.2",
+    "proxy-agent": "^4.0.1",
+    "socks": "^2.6.1",
+    "tedious": "^9.2.3",
+    "trim": "^1.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.8"
+  }
+}
